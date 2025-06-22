@@ -2,6 +2,7 @@ import streamlit as st
 import re
 import nltk
 nltk.download('stopwords')
+nltk.download('vader_lexicon')
 from nltk.corpus import stopwords
 from nltk.sentiment import SentimentIntensityAnalyzer
 
