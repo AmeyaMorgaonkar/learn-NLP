@@ -65,7 +65,7 @@ if text != "":
         else:
             no_of_top_words = st.slider("Select the number of top words you want", min_value=1, max_value=no_of_words, value=5)
             
-        st.subheader("The Top Words in your string were:")
+        st.subheader(f"The Top {no_of_top_words} Words in your string were:")
         
         col1, col2, col3 = st.columns([2, 5, 3])
 
