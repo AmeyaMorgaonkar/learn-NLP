@@ -47,7 +47,7 @@ st.subheader("Enter text and select the functions to do on the text")
 
 text = st.text_area("Type Text and press Ctr + Enter")
 
-text_function = st.selectbox("Select a function", ("See the most used words", "See if the text is positive/negative"))
+text_function = st.selectbox("Select a function", ("See if the text is positive/negative", "See the most used words"))
 
 if text_function == "See the most used words":
     include_stopwords = st.checkbox("Include Stop Words?", help="Stop words are common words in a language, like 'the', 'a', 'is', 'and', that are typically removed during text processing tasks like natural language processing and search engine indexing")
