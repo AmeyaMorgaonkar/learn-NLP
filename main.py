@@ -105,4 +105,4 @@ if text != "":
         st.write(f"Negative Score: {see_tone(text)['neg'] * 10}/10")
 
         st.markdown(f"**Overall Score: {see_tone(text)['compound'] * 10}**")
-        st.write("(The score can be between -10 to +10, where -10 to 0 represents negative tone and 0 to 10 represents positive tone)")
+        st.write("The score can be between -10 to +10, where -10 to 0 represents negative tone and 0 to 10 represents positive tone")
